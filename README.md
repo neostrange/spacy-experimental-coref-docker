@@ -25,7 +25,7 @@ git clone https://github.com/neostrange/spacy-experimental-coref-docker.git cd s
 docker build -t spacy-coref-docker
 - Run the Docker container:
 
-docker run -p 5000:5000 spacy-coref-docker
+docker run -p 9999:5000 spacy-coref-docker
 
 The application will be available at http://localhost:5000.
 
